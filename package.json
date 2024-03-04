@@ -26,7 +26,6 @@
     "@radix-ui/react-separator": "^1.0.3",
     "astro": "^4.4.9",
     "clsx": "^2.1.0",
-    "propsplit": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind-merge": "^2.2.1",

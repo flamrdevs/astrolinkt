@@ -1,9 +1,15 @@
 ---
 import MainLayout from "~/layouts/MainLayout.astro";
+
+import { Separator } from "~/components/ui";
 ---
 
 <MainLayout>
   <main class="flex items-center justify-center w-dvw h-dvh overflow-hidden">
-    <h1 class="font-mono text-xl">404 | Page not found</h1>
+    <h1 class="flex items-center font-mono text-xl">
+      404
+      <Separator color="primary" orientation="vertical" className="mx-4 w-1 h-10" />
+      Page not found
+    </h1>
   </main>
 </MainLayout>

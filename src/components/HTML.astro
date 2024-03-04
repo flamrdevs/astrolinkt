@@ -1,15 +1,17 @@
 ---
+import type { HTMLAttributes } from "astro/types";
+
 import "~/styles/globals.ts";
 
-type Props = {
+type Props = HTMLAttributes<"html"> & {
   title?: string;
   description?: string;
 };
 
-const { title = "astrolinkt", description = title } = Astro.props;
+const { title = "astrolinkt", description = title, ...html } = Astro.props;
 ---
 
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="dark" {...html}>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

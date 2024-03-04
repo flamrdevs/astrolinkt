@@ -56,7 +56,7 @@ export default () => {
                 </div>
               </div>
 
-              <IconButton as="a" role="button" href={project.url} target="_blank" className="group/icon" aria-label="Open">
+              <IconButton as="a" role="button" href={project.url} className="group/icon" target="_blank" aria-label="Open">
                 <Lucide.IconExternalLink
                   aria-label="Open"
                   className="transition text-neutral-10 group-hover:text-primary-11 group-focus-visible/icon:text-primary-11"

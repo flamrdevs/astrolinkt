@@ -26,9 +26,6 @@ dependencies:
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
-  propsplit:
-    specifier: ^1.0.1
-    version: 1.0.1
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2981,10 +2978,6 @@ packages:
 
   /property-information@6.4.1:
     resolution: {integrity: sha512-OHYtXfu5aI2sS2LWFSN5rgJjrQ4pCy8i1jubJLe2QvMF8JJ++HXTUIVWFLfXJoaOfvYYjk2SN8J2wFUWIGXT4w==}
-
-  /propsplit@1.0.1:
-    resolution: {integrity: sha512-qXcx9XJJRQ1w8Dv5wjMpN/qcXOx1YQxR/Wd93UKYTPJAUFQDSqwPGTL+GJnhkV3KSgGryElmWUSk5lzQf4iu1Q==}
-    dev: false
 
   /pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
