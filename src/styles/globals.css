@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply bg-neutral-1 font-sans text-neutral-12;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--neutral-2) / 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--neutral-5));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--neutral-8));
+}
+
+::-moz-selection {
+  background: rgb(var(--primary-8));
+  color: white;
+}
+
+::selection {
+  background: rgb(var(--primary-8));
+  color: white;
+}
