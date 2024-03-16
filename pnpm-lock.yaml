@@ -9,11 +9,11 @@ dependencies:
     specifier: ^0.5.9
     version: 0.5.9(typescript@5.4.2)
   '@klass/core':
-    specifier: 4.0.0-next.20
-    version: 4.0.0-next.20
+    specifier: 4.0.0-next.25
+    version: 4.0.0-next.25
   '@klass/react':
-    specifier: 4.0.0-next.20
-    version: 4.0.0-next.20(@klass/core@4.0.0-next.20)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 4.0.0-next.25
+    version: 4.0.0-next.25(@klass/core@4.0.0-next.25)(react-dom@18.2.0)(react@18.2.0)
   '@radix-ui/react-avatar':
     specifier: ^1.0.4
     version: 1.0.4(@types/react-dom@18.2.22)(@types/react@18.2.65)(react-dom@18.2.0)(react@18.2.0)
@@ -688,20 +688,20 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@klass/core@4.0.0-next.20:
-    resolution: {integrity: sha512-WwqyikRSYz7M0PO+FIVeXlaKz4wUZAz5MoRuWCBDH9o0chGY2zWe+Ro1wv14N7n5VrgPeQ17qeXDk6lIB/1TdQ==}
+  /@klass/core@4.0.0-next.25:
+    resolution: {integrity: sha512-egYUCaNHYBZ2a6RpoOWfsghTC3sw6j1GkGEEKIrIQSWhr5Lyns2tCFGtYdlKfdNPFWeK1FRYZFQIF8dgd7j+HA==}
     dependencies:
       clsx: 2.1.0
     dev: false
 
-  /@klass/react@4.0.0-next.20(@klass/core@4.0.0-next.20)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-0VlYABKE8evoeutrxn5t/bGLrlm+bqITH4J3b35Ow504pjgP6T1hnRhST0M3DQsfK7quLRwTc1hYjlVP7MvOWA==}
+  /@klass/react@4.0.0-next.25(@klass/core@4.0.0-next.25)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-02aF+4eKKUZOH0bTe3F9xYoxg8f812vYFr2VF3B0Epe0SbSKhtHngbcsEovlBL5j+Y6/VbPbrHDOCDg0Ly9wDQ==}
     peerDependencies:
-      '@klass/core': 4.0.0-next.20
-      react: ^18.2.0
-      react-dom: ^18.2.0
+      '@klass/core': 4.0.0-next.25
+      react: 18.2.0 - 19.0.0
+      react-dom: 18.2.0 - 19.0.0
     dependencies:
-      '@klass/core': 4.0.0-next.20
+      '@klass/core': 4.0.0-next.25
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
