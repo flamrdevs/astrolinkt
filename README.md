@@ -14,6 +14,10 @@ Link in Bio Template using Astro, React & TailwindCSS
 
 ## Quick Start
 
+[Create repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+or
+
 Clone the repository
 
 ```bash
@@ -42,6 +46,18 @@ Color system is based on the [Radix Colors](https://www.radix-ui.com/colors) sch
 // tailwind.config.ts
 
 import coloradix /*, { import the colors you want }*/ from "@coloradix/tailwindcss";
+
+// then configure it with the coloradix plugin
+```
+
+#### Theme
+
+Set light / Dark mode by the html data attibute
+
+```html
+<html data-theme="dark">
+  <!--  -->
+</html>
 ```
 
 ## Author
