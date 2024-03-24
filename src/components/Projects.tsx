@@ -2,6 +2,7 @@ import { IconButton } from "./ui";
 import { cn } from "./ui/utils.ts";
 import { Lucide } from "./icons";
 
+// TODO : update projects
 const projects = [
   {
     title: "astrolinkt",

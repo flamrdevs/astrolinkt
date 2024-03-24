@@ -2,6 +2,7 @@ import { IconButton } from "./ui";
 import { cn } from "./ui/utils.ts";
 import { Lucide, Simple } from "./icons";
 
+// TODO : update stacks
 const stacks = [
   {
     name: "Figma",

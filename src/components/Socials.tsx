@@ -1,6 +1,7 @@
 import { cn } from "./ui/utils.ts";
 import { Simple } from "./icons";
 
+// TODO : update socials
 const socials = [
   {
     href: "https://github.com",

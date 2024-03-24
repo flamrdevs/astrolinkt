@@ -8,9 +8,16 @@ type Props = HTMLAttributes<"html"> & {
   description?: string;
 };
 
-const { title = "astrolinkt", description = title, ...html } = Astro.props;
+const {
+  // TODO : html default title
+  title = "astrolinkt",
+  // TODO : html default description
+  description = title,
+  ...html
+} = Astro.props;
 ---
 
+<!-- TODO : html data-theme = "light" or "dark" -->
 <html lang="en" data-theme="dark" {...html}>
   <head>
     <meta charset="utf-8" />
@@ -20,7 +27,7 @@ const { title = "astrolinkt", description = title, ...html } = Astro.props;
     <title>{title}</title>
     <meta name="description" content={description} />
 
-    <!-- FONTS -->
+    <!-- TODO : fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

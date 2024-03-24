@@ -29,6 +29,28 @@ const create = (children: ReactNode) =>
     </Base>
   ));
 
+/**
+ * How to add icons ?
+ *
+ * - Go to https://lucide.dev/icons
+ *
+ * - Copy the icon as SVG, example:
+ *    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x">
+ *      <path d="M18 6 6 18" />
+ *      <path d="m6 6 12 12" />
+ *    </svg>
+ *
+ * - create component with `create` function then copy paste path elements, example:
+ *    export const IconX = create(
+ *      <>
+ *        <path d="M18 6 6 18" />
+ *        <path d="m6 6 12 12" />
+ *      </>
+ *    );
+ */
+
+// TODO : update icons
+
 export const IconArrowRight = create(
   <>
     <path d="M5 12h14" />

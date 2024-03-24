@@ -38,13 +38,17 @@ pnpm dev
 
 ### Customization
 
+#### Content
+
+[VSCode Todo Tree Extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) will help you find what needs to be changed
+
 #### Colors
 
 Color system is based on the [Radix Colors](https://www.radix-ui.com/colors) schema
 
-```typescript
-// tailwind.config.ts
+`tailwind.config.ts`
 
+```typescript
 import coloradix /*, { import the colors you want }*/ from "@coloradix/tailwindcss";
 
 // then configure it with the coloradix plugin
@@ -53,6 +57,8 @@ import coloradix /*, { import the colors you want }*/ from "@coloradix/tailwindc
 #### Theme
 
 Set light / Dark mode by the html data attibute
+
+`src/components/HTML.astro`
 
 ```html
 <html data-theme="dark">
